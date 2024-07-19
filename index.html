@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/assets/css/index.css">
+  <title>To-Do-List-Kanban</title>
+</head>
+
+<body class="all">
+  <header class="header">
+    <h1 class="header__title">Kanban Board</h1>
+  </header>
+
+  <main class="kanban">
+    <section class="kanban__column kanban__column--to-do">
+      <h2 class="kanban__title">Tasks</h2>
+      <div class="tasks_list">
+        <div class="tasks">
+          <h4 class="text">Collect a bouquet of lavander</h4>
+          <div class="tasks_bottom">
+            <div class="procent">
+              <div class="day">Wed</div>
+              <ul class="indicator">
+                <li class="item_indicator_one"></li>
+                <li class="item_indicator_two"></li>
+                <li class="item_indicator_three"></li>
+              </ul>
+            </div>
+            <div class="data">24.07.2024</div>
+          </div>
+        </div>
+
+        <div class="tasks">
+          <h4 class="text">Do the laundary colored clothes</h4>
+          <div class="tasks_bottom">
+            <div class="procent">
+              <div class="day">Fri</div>
+              <ul class="indicator">
+                <li class="item_indicator_one"></li>
+                <li class="item_indicator_two"></li>
+                <li class="item_indicator_three"></li>
+              </ul>
+            </div>
+            <div class="data">26.07.2024</div>
+          </div>
+        </div>
+      
+        <div class="tasks">
+          <h4 class="text">Finish my painting on canvas</h4>
+          <div class="tasks_bottom">
+            <div class="procent">
+              <div class="day_red">Sat</div>
+              <ul class="indicator">
+                <li class="item_indicator_first"></li>
+                <li class="item_indicator_second"></li>
+                <li class="item_indicator_third"></li>
+              </ul>
+            </div>
+            <div class="data">20.07.2024</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="kanban__column kanban__column--in-progress">
+      <h2 class="kanban__title">In progress</h2>
+      <div class="tasks_list">
+        <div class="tasks">
+          <h4 class="text">Re-knit the blanket for the sofa</h4>
+          <div class="tasks_bottom">
+            <div class="procent">
+              <div class="day_process">Sun</div>
+              <ul class="indicator">
+                <li class="item_indicator_process_a"></li>
+                <li class="item_indicator_process"></li>
+                <li class="item_indicator_process"></li>
+              </ul>
+            </div>
+            <div class="data">15.09.2024</div>
+          </div>
+        </div>
+
+          <div class="tasks">
+            <h4 class="text">Varshing the table</h4>
+            <div class="tasks_bottom">
+              <div class="procent">
+                <div class="day_process_second">Tue</div>
+                <ul class="indicator">
+                  <li class="item_indicator_process_second"></li>
+                  <li class="item_indicator_process_second"></li>
+                  <li class="item_indicator_process_second"></li>
+                </ul>
+              </div>
+              <div class="data">30.07.2024</div>
+            </div>
+          </div>
+
+            <div class="tasks">
+              <h4 class="text">Deliver chairs to a country house</h4>
+              <div class="tasks_bottom">
+                <div class="procent">
+                  <div class="day_process_third">Thu</div>
+                  <ul class="indicator">
+                    <li class="item_indicator_process_third"></li>
+                    <li class="item_indicator_process_third"></li>
+                    <li class="item_indicator_process_third_a"></li>
+                  </ul>
+                </div>
+                <div class="data">15.08.2024</div>
+              </div>
+            </div>
+    </section>
+
+    <section class="kanban__column kanban__column--done">
+      <h2 class="kanban__title">Done</h2>
+      <div class="tasks_list">
+        <div class="tasks">
+          <h4 class="text">Complete a design course</h4>
+          <div class="tasks_bottom">
+            <div class="procent">
+              <div class="day_done">Wed</div>
+              <ul class="indicator">
+                <li class="item_indicator_done"></li>
+                <li class="item_indicator_done"></li>
+                <li class="item_indicator_done"></li>
+              </ul>
+            </div>
+            <div class="data">10.07.2024</div>
+          </div>
+        </div>
+
+          <div class="tasks">
+            <h4 class="text">Swap the table and the chest of drawers</h4>
+            <div class="tasks_bottom">
+              <div class="procent">
+                <div class="day_done_second">Mon</div>
+                <ul class="indicator">
+                  <li class="item_indicator_done_second"></li>
+                  <li class="item_indicator_done_second_f"></li>
+                  <li class="item_indicator_done_second_f"></li>
+                </ul>
+              </div>
+              <div class="data">08.07.2024</div>
+            </div>
+          </div>
+
+            <div class="tasks">
+              <h4 class="text">Add new ink to the printer</h4>
+              <div class="tasks_bottom">
+                <div class="procent">
+                  <div class="day_done_third">Fri</div>
+                  <ul class="indicator">
+                    <li class="item_indicator_done_third"></li>
+                    <li class="item_indicator_done_third"></li>
+                    <li class="item_indicator_done_third_f"></li>
+                  </ul>
+                </div>
+                <div class="data">05.07.2024</div>
+              </div>
+            </div>
+          
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">To-Do-List-Kanban</p>
+  </footer>
+</body>
+<script src="./src/assets/js/index.js"></script>
+
+</html>
