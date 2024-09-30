@@ -8,7 +8,7 @@
 
 .kanban__column {
     flex: 0 0 100%;
-    background-color: gray;
+    background-color: #808080;
     border-radius: 6px;
     padding: 10px;
     margin: 0 10px 20px;
